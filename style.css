@@ -1,0 +1,126 @@
+.list {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.input-lista {
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.subm {
+    padding: 10px;
+}
+
+.input-marca {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#itensNovos {
+    text-decoration: none;
+    padding-left: 0%;
+}
+
+#novo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    margin: 0.5rem auto;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.input {
+    border: none;
+    background: none;
+    color: black;
+    font-size: 30px;
+}
+
+#itensComprados {
+    padding-left: 0%;
+    list-style: none;
+}
+
+#item-comprado {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    margin: 0.5rem auto;
+    align-items: center;
+    text-decoration: line-through;
+    font-size: 30px;
+    background-color: rgb(217, 248, 217);
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 35px;
+}
+
+.mdi-content-save-check {
+    color: rgb(160, 52, 210);
+}
+
+.mdi-file-edit-outline {
+    color: rgb(16, 16, 177);
+}
+
+.mdi-delete {
+    color: red;
+    font-size: 30px;
+}
+
+.mdi-delete:hover {
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+
+.mdi-content-save-check:hover {
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+
+.mdi-file-edit-outline:hover {
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+
+#itens-nao-comprados {
+    border-bottom: 2px solid gray;
+    margin-bottom: 1rem;
+}
+
+#itens-comp {
+    border-bottom: 2px solid gray;
+    padding: 0%;
+}
+
+.inputs-in {
+    display: flex;
+    align-items: center;
+}
